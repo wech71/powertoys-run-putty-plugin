@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Platforms>x64;ARM64</Platforms>
+    <PlatformTarget>$(Platform)</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Community.PowerToys.Run.Plugin.Dependencies" Version="0.82.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="plugin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images/*.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\putty-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\putty-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Update="PowerToys.Common.UI.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Update="PowerToys.ManagedCommon.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Update="PowerToys.Settings.UI.Lib.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Update="Wox.Infrastructure.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Update="Wox.Plugin.dll">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

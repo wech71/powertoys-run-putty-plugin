@@ -1,0 +1,6 @@
+bin/
+obj/
+.vs/
+TestResults/
+/Community.PowerToys.Run.Plugin.run-putty/Properties/
+/Community.PowerToys.Run.Plugin.run-putty/Community.PowerToys.Run.Plugin.run-putty.csproj.user

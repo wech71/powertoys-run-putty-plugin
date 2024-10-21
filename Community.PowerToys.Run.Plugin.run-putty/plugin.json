@@ -1,0 +1,14 @@
+{
+  "ID": "78C15FE08BA94E11B564889A0ABE242E",
+  "ActionKeyword": "putty",
+  "IsGlobal": false,
+  "Name": "run-putty",
+  "Author": "wech71",
+  "Version": "0.1.0",
+  "Language": "csharp",
+  "Website": "https://github.com/wech71/Powertoys-Plugins/Community.PowerToys.Run.Plugin.run-putty",
+  "ExecuteFileName": "Community.PowerToys.Run.Plugin.run-putty.dll",
+  "IcoPathDark": "Images\\run-putty.dark.png",
+  "IcoPathLight": "Images\\run-putty.light.png",
+  "DynamicLoading": false
+}
