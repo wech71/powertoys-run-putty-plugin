@@ -61,9 +61,9 @@ namespace Community.PowerToys.Run.Plugin.run_putty
                         results.Add(new Result
                         {
                             QueryTextDisplay = search,
-                            Title = "putty " + puttySessionName,
-                            SubTitle = "Putty ssh connection to " + puttySessionName,
-                            ToolTipData = new ToolTipData("Start Putty with saved session", "ssh to " + puttySessionName),
+                            Title = "PuTTY " + puttySessionName,
+                            SubTitle = "PuTTY ssh connection to " + puttySessionName,
+                            ToolTipData = new ToolTipData("Start PuTTY with saved session", "ssh to " + puttySessionName),
                             Action = _ =>
                             {
                                 StartPuttyWithSavedSession(puttySessionName);
@@ -111,7 +111,7 @@ namespace Community.PowerToys.Run.Plugin.run_putty
                     new ContextMenuResult
                     {
                         PluginName = Name,
-                        Title = "Start Putty with saved session",
+                        Title = "Start PuTTY with saved session",
                         FontFamily = "Segoe MDL2 Assets",
                         Glyph = "\xF20C", // Keyboard
                         //AcceleratorModifiers = ModifierKeys.Control,
