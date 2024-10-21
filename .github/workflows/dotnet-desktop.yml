@@ -12,7 +12,7 @@ permissions:
   attestations: write
 
 env:
-  OUTPUT_PATH: src\Community.PowerToys.Run.Plugin.run-putty\bin
+  OUTPUT_PATH: Community.PowerToys.Run.Plugin.run-putty\bin
   PLUGIN_NAME: run-putty
 
 jobs:
@@ -41,15 +41,15 @@ jobs:
 
       - name: Restore the application
         run: dotnet restore
-        working-directory: src
+        working-directory: Community.PowerToys.Run.Plugin.run-putty
 
       - name: Execute unit tests
         run: dotnet test
-        working-directory: src
+        working-directory: Community.PowerToys.Run.Plugin.run-putty
 
       - name: Build the application
         run: dotnet build --configuration RELEASE /p:Platform=${{matrix.platform}} /p:EnableWindowsTargeting=true
-        working-directory: src
+        working-directory: Community.PowerToys.Run.Plugin.run-putty
 
       - name: Prepare the artifacts
         run: |
