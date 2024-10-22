@@ -18,17 +18,17 @@ putty putty_session_name
 
 ## Installation
 
-There are multiple ways to install the Currency Converter plugin for PowerToys:
+There are multiple ways to install the PowerToys-Run PuTTY plugin for PowerToys:
 
 ### Method 1: Manual Installation
 
-1. Download the latest release of the Currency Converter from the [releases page](https://github.com/wech71/powertoys-run-putty-plugin/releases).
+1. Download the latest release of the PowerToys-Run PuTTY from the [releases page](https://github.com/wech71/powertoys-run-putty-plugin/releases).
 2. Extract the zip file's contents to your PowerToys modules directory (usually `%LOCALAPPDATA%\Microsoft\PowerToys\PowerToys Run\Plugins`).
 3. Restart PowerToys to complete the installation process.
 
 ### Method 2: Executable File
 
-1. Download the executable file for the Currency Converter plugin from the [releases page](https://github.com/wech71/powertoys-run-putty-plugin/releases).
+1. Download the executable file for the PowerToys-Run PuTTY plugin from the [releases page](https://github.com/wech71/powertoys-run-putty-plugin/releases).
 2. Run the executable file and follow the installation instructions.
 3. Restart PowerToys.
 
